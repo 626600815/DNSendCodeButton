@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516BC7ED1D7FAE2200248F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516BC7EC1D7FAE2200248F40 /* main.m */; };
+		516BC7F01D7FAE2200248F40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516BC7EF1D7FAE2200248F40 /* AppDelegate.m */; };
+		516BC7F31D7FAE2200248F40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516BC7F21D7FAE2200248F40 /* ViewController.m */; };
+		516BC7F61D7FAE2200248F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516BC7F41D7FAE2200248F40 /* Main.storyboard */; };
+		516BC7F81D7FAE2200248F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516BC7F71D7FAE2200248F40 /* Assets.xcassets */; };
+		516BC7FB1D7FAE2200248F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516BC7F91D7FAE2200248F40 /* LaunchScreen.storyboard */; };
+		516BC8061D7FAE2200248F40 /* DNSendCodeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516BC8051D7FAE2200248F40 /* DNSendCodeButtonTests.m */; };
+		516BC8111D7FAE2200248F40 /* DNSendCodeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516BC8101D7FAE2200248F40 /* DNSendCodeButtonUITests.m */; };
+		516BC8231D7FAF0700248F40 /* DNCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 516BC8221D7FAF0700248F40 /* DNCountDownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516BC8021D7FAE2200248F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516BC7E01D7FAE2100248F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516BC7E71D7FAE2100248F40;
+			remoteInfo = DNSendCodeButton;
+		};
+		516BC80D1D7FAE2200248F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516BC7E01D7FAE2100248F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516BC7E71D7FAE2100248F40;
+			remoteInfo = DNSendCodeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516BC7E81D7FAE2100248F40 /* DNSendCodeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNSendCodeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516BC7EC1D7FAE2200248F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		516BC7EE1D7FAE2200248F40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		516BC7EF1D7FAE2200248F40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		516BC7F11D7FAE2200248F40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		516BC7F21D7FAE2200248F40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		516BC7F51D7FAE2200248F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516BC7F71D7FAE2200248F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516BC7FA1D7FAE2200248F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		516BC7FC1D7FAE2200248F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516BC8011D7FAE2200248F40 /* DNSendCodeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSendCodeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516BC8051D7FAE2200248F40 /* DNSendCodeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSendCodeButtonTests.m; sourceTree = "<group>"; };
+		516BC8071D7FAE2200248F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516BC80C1D7FAE2200248F40 /* DNSendCodeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSendCodeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516BC8101D7FAE2200248F40 /* DNSendCodeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSendCodeButtonUITests.m; sourceTree = "<group>"; };
+		516BC8121D7FAE2200248F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516BC8211D7FAF0700248F40 /* DNCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNCountDownButton.h; sourceTree = "<group>"; };
+		516BC8221D7FAF0700248F40 /* DNCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516BC7E51D7FAE2100248F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516BC7FE1D7FAE2200248F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516BC8091D7FAE2200248F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516BC7DF1D7FAE2100248F40 = {
+			isa = PBXGroup;
+			children = (
+				516BC7EA1D7FAE2200248F40 /* DNSendCodeButton */,
+				516BC8041D7FAE2200248F40 /* DNSendCodeButtonTests */,
+				516BC80F1D7FAE2200248F40 /* DNSendCodeButtonUITests */,
+				516BC7E91D7FAE2100248F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516BC7E91D7FAE2100248F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516BC7E81D7FAE2100248F40 /* DNSendCodeButton.app */,
+				516BC8011D7FAE2200248F40 /* DNSendCodeButtonTests.xctest */,
+				516BC80C1D7FAE2200248F40 /* DNSendCodeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516BC7EA1D7FAE2200248F40 /* DNSendCodeButton */ = {
+			isa = PBXGroup;
+			children = (
+				516BC7EE1D7FAE2200248F40 /* AppDelegate.h */,
+				516BC7EF1D7FAE2200248F40 /* AppDelegate.m */,
+				516BC7F11D7FAE2200248F40 /* ViewController.h */,
+				516BC7F21D7FAE2200248F40 /* ViewController.m */,
+				516BC8211D7FAF0700248F40 /* DNCountDownButton.h */,
+				516BC8221D7FAF0700248F40 /* DNCountDownButton.m */,
+				516BC7F41D7FAE2200248F40 /* Main.storyboard */,
+				516BC7F71D7FAE2200248F40 /* Assets.xcassets */,
+				516BC7F91D7FAE2200248F40 /* LaunchScreen.storyboard */,
+				516BC7FC1D7FAE2200248F40 /* Info.plist */,
+				516BC7EB1D7FAE2200248F40 /* Supporting Files */,
+			);
+			path = DNSendCodeButton;
+			sourceTree = "<group>";
+		};
+		516BC7EB1D7FAE2200248F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				516BC7EC1D7FAE2200248F40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		516BC8041D7FAE2200248F40 /* DNSendCodeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				516BC8051D7FAE2200248F40 /* DNSendCodeButtonTests.m */,
+				516BC8071D7FAE2200248F40 /* Info.plist */,
+			);
+			path = DNSendCodeButtonTests;
+			sourceTree = "<group>";
+		};
+		516BC80F1D7FAE2200248F40 /* DNSendCodeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				516BC8101D7FAE2200248F40 /* DNSendCodeButtonUITests.m */,
+				516BC8121D7FAE2200248F40 /* Info.plist */,
+			);
+			path = DNSendCodeButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516BC7E71D7FAE2100248F40 /* DNSendCodeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516BC8151D7FAE2200248F40 /* Build configuration list for PBXNativeTarget "DNSendCodeButton" */;
+			buildPhases = (
+				516BC7E41D7FAE2100248F40 /* Sources */,
+				516BC7E51D7FAE2100248F40 /* Frameworks */,
+				516BC7E61D7FAE2100248F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNSendCodeButton;
+			productName = DNSendCodeButton;
+			productReference = 516BC7E81D7FAE2100248F40 /* DNSendCodeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516BC8001D7FAE2200248F40 /* DNSendCodeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516BC8181D7FAE2200248F40 /* Build configuration list for PBXNativeTarget "DNSendCodeButtonTests" */;
+			buildPhases = (
+				516BC7FD1D7FAE2200248F40 /* Sources */,
+				516BC7FE1D7FAE2200248F40 /* Frameworks */,
+				516BC7FF1D7FAE2200248F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516BC8031D7FAE2200248F40 /* PBXTargetDependency */,
+			);
+			name = DNSendCodeButtonTests;
+			productName = DNSendCodeButtonTests;
+			productReference = 516BC8011D7FAE2200248F40 /* DNSendCodeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		516BC80B1D7FAE2200248F40 /* DNSendCodeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516BC81B1D7FAE2200248F40 /* Build configuration list for PBXNativeTarget "DNSendCodeButtonUITests" */;
+			buildPhases = (
+				516BC8081D7FAE2200248F40 /* Sources */,
+				516BC8091D7FAE2200248F40 /* Frameworks */,
+				516BC80A1D7FAE2200248F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516BC80E1D7FAE2200248F40 /* PBXTargetDependency */,
+			);
+			name = DNSendCodeButtonUITests;
+			productName = DNSendCodeButtonUITests;
+			productReference = 516BC80C1D7FAE2200248F40 /* DNSendCodeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516BC7E01D7FAE2100248F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					516BC7E71D7FAE2100248F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AN3ACWJAM4;
+					};
+					516BC8001D7FAE2200248F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 516BC7E71D7FAE2100248F40;
+					};
+					516BC80B1D7FAE2200248F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 516BC7E71D7FAE2100248F40;
+					};
+				};
+			};
+			buildConfigurationList = 516BC7E31D7FAE2100248F40 /* Build configuration list for PBXProject "DNSendCodeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516BC7DF1D7FAE2100248F40;
+			productRefGroup = 516BC7E91D7FAE2100248F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516BC7E71D7FAE2100248F40 /* DNSendCodeButton */,
+				516BC8001D7FAE2200248F40 /* DNSendCodeButtonTests */,
+				516BC80B1D7FAE2200248F40 /* DNSendCodeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516BC7E61D7FAE2100248F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516BC7FB1D7FAE2200248F40 /* LaunchScreen.storyboard in Resources */,
+				516BC7F81D7FAE2200248F40 /* Assets.xcassets in Resources */,
+				516BC7F61D7FAE2200248F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516BC7FF1D7FAE2200248F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516BC80A1D7FAE2200248F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516BC7E41D7FAE2100248F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516BC7F31D7FAE2200248F40 /* ViewController.m in Sources */,
+				516BC8231D7FAF0700248F40 /* DNCountDownButton.m in Sources */,
+				516BC7F01D7FAE2200248F40 /* AppDelegate.m in Sources */,
+				516BC7ED1D7FAE2200248F40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516BC7FD1D7FAE2200248F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516BC8061D7FAE2200248F40 /* DNSendCodeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516BC8081D7FAE2200248F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516BC8111D7FAE2200248F40 /* DNSendCodeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516BC8031D7FAE2200248F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516BC7E71D7FAE2100248F40 /* DNSendCodeButton */;
+			targetProxy = 516BC8021D7FAE2200248F40 /* PBXContainerItemProxy */;
+		};
+		516BC80E1D7FAE2200248F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516BC7E71D7FAE2100248F40 /* DNSendCodeButton */;
+			targetProxy = 516BC80D1D7FAE2200248F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		516BC7F41D7FAE2200248F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516BC7F51D7FAE2200248F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		516BC7F91D7FAE2200248F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516BC7FA1D7FAE2200248F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		516BC8131D7FAE2200248F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		516BC8141D7FAE2200248F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516BC8161D7FAE2200248F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DNSendCodeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSendCodeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		516BC8171D7FAE2200248F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DNSendCodeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNSendCodeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		516BC8191D7FAE2200248F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNSendCodeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.DNSendCodeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNSendCodeButton.app/DNSendCodeButton";
+			};
+			name = Debug;
+		};
+		516BC81A1D7FAE2200248F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNSendCodeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.DNSendCodeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNSendCodeButton.app/DNSendCodeButton";
+			};
+			name = Release;
+		};
+		516BC81C1D7FAE2200248F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNSendCodeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.DNSendCodeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNSendCodeButton;
+			};
+			name = Debug;
+		};
+		516BC81D1D7FAE2200248F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNSendCodeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainone.DNSendCodeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNSendCodeButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516BC7E31D7FAE2100248F40 /* Build configuration list for PBXProject "DNSendCodeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516BC8131D7FAE2200248F40 /* Debug */,
+				516BC8141D7FAE2200248F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516BC8151D7FAE2200248F40 /* Build configuration list for PBXNativeTarget "DNSendCodeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516BC8161D7FAE2200248F40 /* Debug */,
+				516BC8171D7FAE2200248F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		516BC8181D7FAE2200248F40 /* Build configuration list for PBXNativeTarget "DNSendCodeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516BC8191D7FAE2200248F40 /* Debug */,
+				516BC81A1D7FAE2200248F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		516BC81B1D7FAE2200248F40 /* Build configuration list for PBXNativeTarget "DNSendCodeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516BC81C1D7FAE2200248F40 /* Debug */,
+				516BC81D1D7FAE2200248F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516BC7E01D7FAE2100248F40 /* Project object */;
+}
